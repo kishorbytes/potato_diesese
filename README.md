@@ -205,8 +205,16 @@ cd gcp
 gcloud functions deploy predict --runtime python38 --trigger-http --memory 512 --project project_id
 ```
 
+
+
 8. Your model is now deployed.
 9. Use Postman to test the GCF using the [Trigger URL](https://cloud.google.com/functions/docs/calling/http).
 
 Inspiration: https://cloud.google.com/blog/products/ai-machine-learning/how-to-serve-deep-learning-models-using-tensorflow-2-0-with-cloud-functions
+
+
+
+## Download Link for Dataset
+
+https://www.dropbox.com/scl/fo/2w7dg45rs2excnato6lrn/ANfR3zGWgz3L9-x_7sE_1l0?rlkey=dm0kdd8y9qewde3eyupj96c15&st=nkaiuzdx&dl=0
 
