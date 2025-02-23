@@ -1,0 +1,30 @@
+
+
+############################-------------- STEPS ---------------------#########################################
+----------------------------------------------------------------------------------------------------------------
+ 
+1.Activate Environment
+    - Go to the path : "C:\Users\Kishor\dl_projects\potato_diesese\potato_dieses_env" and open Git Bash
+    - copy paste following : source Scripts/activate
+
+2. Sync Your Environment with your code base in Editer (In my case VS code)
+    - Open VS Code and open your project folder (potato_diesese)
+    - Install the Python Extension in VS Code. (If not installed)
+    - Press Ctrl+Shift+P → Type Python: Select Interpreter → Choose the virtual environment (potato_dieses_env).
+
+3. Run the code
+    - if you did not import uvicorn in your api file then do following in your api folder 
+        - open api folder in "C:\Users\Kishor\dl_projects\potato_diesese\api" in terminal (Git Bash)
+        - write below command
+            - uvicorn main:app --reload (where main is api file name and app is api server name)
+
+    - if you imported uvicorn in your api file then do following in your api folder 
+        - Just run the file and you get the url in terminal like : "http://127.0.0.1:8001" 
+
+4.Check your API in Postman 
+    - Paste url (http://127.0.0.1:8001) in postman and pass form data as required in api (in this case "file") 
+
+5.Check Frontend Part (If frontend part is done)
+    - Go to your frontend folder (C:\Users\Kishor\dl_projects\potato_diesese\frontend)
+    - write below command
+        - npm run start
